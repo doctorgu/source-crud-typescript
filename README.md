@@ -4,6 +4,21 @@ Source manager (e.g., delete property by name searching all directory)
 
 ## delete by yaml config file
 
-```bash
-npx source-crud-typescript delete-properties --config "C:\source\source-crud-typescript\src\config-sample-delete-properties.yaml"
+1. create `config.yaml` file in current directory
+
+```yaml
+root-dir:
+  C:\source\your-project
+patterns:
+  - '^.+\.(ts|tsx|svelte|js|jsx)$'
+exclude-patterns:
+  - '[\\\/]rollup\..+\.js$'
+  - '[\\\/](node_modules|public|dist|build)[\\\/]'
+properties:
+  - "'apiKey'"
+  - "'auth'"
+  - apiKey
+  - auth
 ```
+
+1. run `npx source-crud-typescript delete-properties --config config.yaml`
