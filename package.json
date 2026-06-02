@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "source-crud-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Source manager (e.g., delete property by name searching all directory)",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -32,13 +32,13 @@
   "homepage": "https://github.com/doctorgu/source-crud-typescript#readme",
   "devDependencies": {
     "@types/node": "^25.5.2",
-    "tsup": "^8.5.1",
-    "typescript": "^6.0.3"
+    "tsup": "^8.5.1"
   },
   "engines": {
     "node": ">=18.3.0"
   },
   "dependencies": {
+    "typescript": "^5.9.3",
     "yaml": "^2.9.0"
   }
 }
