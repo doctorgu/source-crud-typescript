@@ -1,0 +1,12 @@
+root-dir:
+  C:\source\your-project
+patterns:
+  - '^.+\.(ts|tsx|svelte|js|jsx)$'
+exclude-patterns:
+  - '[\\\/]rollup\..+\.js$'
+  - '[\\\/](node_modules|public|dist|build)[\\\/]'
+properties:
+  - "'apiKey'"
+  - "'auth'"
+  - apiKey
+  - auth

@@ -1,0 +1,16 @@
+root-dir:
+  C:\source\your-project
+patterns:
+  - '^.+\.(ts|tsx|svelte|js|jsx)$'
+exclude-patterns:
+  - '[\\\/]rollup\..+\.js$'
+  - '[\\\/](node_modules|public|dist|build)[\\\/]'
+callers:
+  - console.assert
+  - console.debug
+  - console.dir
+  - console.error
+  - console.info
+  - console.log
+  - console.trace
+  - console.warn

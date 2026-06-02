@@ -1,0 +1,44 @@
+{
+  "type": "module",
+  "name": "source-crud-typescript",
+  "version": "1.0.0",
+  "description": "Source manager (e.g., delete property by name searching all directory)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "source-crud-typescript": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doctorgu/source-crud-typescript.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doctorgu/source-crud-typescript/issues"
+  },
+  "homepage": "https://github.com/doctorgu/source-crud-typescript#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "dependencies": {
+    "yaml": "^2.9.0"
+  }
+}
