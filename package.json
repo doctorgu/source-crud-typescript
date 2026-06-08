@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "source-crud-typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Source manager (e.g., delete property by name searching all directory)",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

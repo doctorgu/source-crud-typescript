@@ -2,6 +2,12 @@
 
 Source manager (e.g., delete property by name searching all directory)
 
+## install
+
+```bash
+npm install source-crud-typescript --save-dev
+```
+
 ## delete by yaml config file
 
 1. create `config.yaml` file in current directory
